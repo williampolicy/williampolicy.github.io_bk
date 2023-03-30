@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPT-4 Text Generator</title>
+</head>
+<body>
+  <h1>GPT-4 Text Generator</h1>
+  <label for="input-text">Input text:</label>
+  <textarea id="input-text" rows="4" cols="50"></textarea>
+  <br>
+  <button id="generate-button">Generate Text</button>
+  <h2>Generated Text:</h2>
+  <div id="gpt-output"></div>
+  <!-- <script src="main.js"></script> -->
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
+
+
