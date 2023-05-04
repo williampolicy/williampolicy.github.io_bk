@@ -58,4 +58,6 @@ both ok
 ----
 我先要把这个名字让出来，
 - github , 改名为：williampolicy.github.io_bk
-- 本地测试，看会push到哪里。
+- 本地测试，看会push到哪里。 - OK 测试成功。 
+- 修改本地库名称。 williampolicy.github.io_bk . 这样本地与github同名称。
+- 本地再次测试。 
