@@ -37,3 +37,25 @@ python3 app.py
 both ok
 
 
+---- ---------------  我需要适应github page 做我的展示。这种方式比较简单。而且有库。
+要取消现有的域名重定向，你需要在williampolicy.github.io仓库中删除CNAME文件。以下是详细步骤：
+
+打开你的williampolicy.github.io仓库：转到https://github.com/williampolicy/williampolicy.github.io
+
+删除CNAME文件：在仓库的文件列表中找到CNAME文件，点击它。然后点击右上角的垃圾桶图标（Delete this file）并提交更改。
+
+检查GitHub Pages设置：转到仓库的Settings页面，滚动到GitHub Pages部分。在Custom domain输入框中，确认自定义域名已被删除。如果仍然存在，请删除自定义域名并保存更改。
+
+现在，当你访问https://williampolicy.github.io时，它不再重定向到ichoosinglove.com。
+
+接下来，你可以按照我之前给出的指导将你的Jekyll项目部署到https://williampolicy.github.io/code_portfolio_data_scientist/。或者，如果你希望将Jekyll项目部署到williampolicy.github.io的根目录，请按照下列步骤操作：
+
+将你的Jekyll项目文件复制到williampolicy.github.io仓库中。
+在_config.yml文件中，将url设置为https://williampolicy.github.io，并确保baseurl是空的。
+提交并推送更改到GitHub。
+在GitHub上，转到你的williampolicy.github.io仓库，然后点击Settings -> Pages。在Source区域，选择"main"分支，然后点击"Save"。
+现在，当你访问https://williampolicy.github.io时，你应该能够看到你的Jekyll项目。
+----
+我先要把这个名字让出来，
+- github , 改名为：williampolicy.github.io_bk
+- 本地测试，看会push到哪里。
